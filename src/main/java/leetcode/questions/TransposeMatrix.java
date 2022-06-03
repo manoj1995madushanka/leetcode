@@ -1,6 +1,7 @@
 package leetcode.questions;
 
 public class TransposeMatrix {
+
     public int[][] transpose(int[][] matrix) {
         int m = matrix.length;//rows
         int n = matrix[0].length;//columns
