@@ -1,0 +1,7 @@
+Complexity analysis
+
+Time complexity : O(m)O(m) time per query, O(mn)O(mn) time pre-computation.
+    The pre-computation in the constructor takes O(mn)O(mn) time. The sumRegion query takes O(m)O(m) time.
+
+Space complexity : O(mn)O(mn). The algorithm uses O(mn)O(mn) space to store the cumulative
+    sum of all rows.e.com/problems/range-sum-query-2d-immutable/
