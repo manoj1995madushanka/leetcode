@@ -21,4 +21,18 @@ class Node {
 
         tail.next = new Node(tailData);
     }
+
+    public void deleteNode(int value) {
+        Node head = this;
+
+        if (head.data == value) {
+            head = head.next;
+        }
+
+        while (head.next != null) {
+            if (head.next.data == value) {
+                head.next = head.next.next;
+            }
+        }
+    }
 }
